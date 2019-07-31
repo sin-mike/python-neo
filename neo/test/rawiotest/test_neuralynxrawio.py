@@ -21,6 +21,7 @@ class TestNeuralynxRawIO(BaseTestRawIO, unittest.TestCase, ):
         'Cheetah_v5.7.4/original_data',
         'Cheetah_v6.3.2/incomplete_blocks'
     ]
+
     files_to_download = [
         'Cheetah_v5.5.1/original_data/CheetahLogFile.txt',
         'Cheetah_v5.5.1/original_data/CheetahLostADRecords.txt',
